@@ -6,7 +6,7 @@ import { useCountdown } from "./Timerhook";
 const ExpiredNotice = () => {
   return (
     <Box zIndex={100} bgColor="white" className="expired-notice">
-      <span>Hackathon is ended!!!</span>
+      <span>Hackathon has ended!!!</span>
     </Box>
   );
 };

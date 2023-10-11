@@ -43,19 +43,19 @@ export default function contact() {
       <Heading textAlign="center" mb="8" color="white">
         Registration Form
       </Heading>
-      <Text textAlign="center" color="white">
+      {/* <Text textAlign="center" color="white">
         PLEASE NOTE: REGISTRATION FORM IS DIABLED AS OF NOW. PLEASE REFER
         SOMETIME SOON!!
-      </Text>
-      {/* <Text
+      </Text> */}
+      <Text
         textAlign="center"
         color="white"
         as={"a"}
-        href="https://forms.gle/PXhe41oypw6bTxb46"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdRMfQ5Q_s8QbddWujAl52rTbueJMoHotJL0cOEhv-wzBEYgw/viewform?usp=sf_link"
         target="_blank"
       >
         Link For the registrations
-      </Text> */}
+      </Text>
       <Box bg="white" color="blue.700" borderRadius="lg" p={8} m={[0, 8]}>
         <form onSubmit={handleSubmit}>
           <VStack spacing={5}>

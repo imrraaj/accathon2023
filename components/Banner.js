@@ -39,14 +39,17 @@ export default function CallToActionWithVideo() {
                 zIndex: -1,
               }}
             >
-              MINeD Hackathon 2023
+              Accathon Hackathon 2023
             </Text>
             <br />
-            <Text fontSize="2xl" marginTop="4" color={"blue.400"}>
-              From 3<sup>rd</sup> to 5<sup>th</sup> March 2023.
+            <Text fontSize="xl" marginTop="4" color={"blue.400"}>
+              Round 1 (Online):  9<sup>th</sup> November onwards.
+            </Text>
+            <Text fontSize="xl" marginTop="4" color={"blue.400"}>
+              Round 2 (Offline):  2<sup>nd</sup> - 3<sup>rd</sup> November onwards.
             </Text>
             <Text as={"span"} fontSize={["lg", "xl"]} fontWeight="black">
-              Participate and win exciting prizes up to &#8377;2,30,000+
+              Participate and win exciting prizes up to &#8377;1,30,000+
             </Text>
           </Heading>
           <Stack
@@ -59,11 +62,10 @@ export default function CallToActionWithVideo() {
               size={"lg"}
               fontWeight={"normal"}
               px={6}
-              leftIcon={<FaDiscord h={4} w={4} color={"gray.300"} />}
               as={Link}
-              href="https://discord.gg/CT2YGpNhXr"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdRMfQ5Q_s8QbddWujAl52rTbueJMoHotJL0cOEhv-wzBEYgw/viewform?usp=sf_link"
             >
-              Join Discord
+              Register here
             </Button>
           </Stack>
         </Stack>

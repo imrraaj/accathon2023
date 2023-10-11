@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="primary-nav container">
       <div className="logo">
         <Link href={"/"}>
-          <img className="logo-image" src="/logo.png" alt="Menu" />
+          <img className="logo-image" src="/logo.jpg" alt="Menu" />
         </Link>
       </div>
 

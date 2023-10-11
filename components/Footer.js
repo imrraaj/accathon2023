@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer container">
       <div className="logo">
-        <img className="logo-image" src="/logo.png" alt="Menu" />
+        <img className="logo-image" src="/logo.jpg" alt="Menu" />
       </div>
 
       <div>
@@ -28,12 +28,7 @@ export default function Footer() {
       <div>
         <ul className="socials-list">
           <li>
-            <Link href="https://discord.gg/CT2YGpNhXr" target="_blank">
-              <FaDiscord />
-            </Link>
-          </li>
-          <li>
-            <Link href={"mailto:sapanmankad@nirmauni.ac.in"} target="_blank">
+            <Link href={"mailto:gopikajuneja@nirmauni.ac.in"} target="_blank">
               <MdEmail />
             </Link>
           </li>

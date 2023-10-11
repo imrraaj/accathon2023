@@ -55,23 +55,11 @@ export default function contact() {
                         variant="ghost"
                         color="#DCE2FF"
                         as={"a"}
-                        href={"mailto:sapanmankad@nirmauni.ac.in"}
+                        href={"mailto:gopikajuneja@nirmauni.ac.in"}
                         _hover={{ bgColor: "blue.900" }}
                         leftIcon={<MdEmail color="#1970F1" size="20px" />}
                       >
-                        sapanmankad@nirmauni.ac.in
-                      </Button>
-                      <Button
-                        justifyContent={"start"}
-                        size="md"
-                        variant="ghost"
-                        color="#DCE2FF"
-                        as={"a"}
-                        href={"mailto:coe.ds@nirmauni.ac.in"}
-                        _hover={{ bgColor: "blue.900" }}
-                        leftIcon={<MdEmail color="#1970F1" size="20px" />}
-                      >
-                        coe.ds@nirmauni.ac.in
+                        gopikajuneja@nirmauni.ac.in
                       </Button>
                     </VStack>
                   </Box>
