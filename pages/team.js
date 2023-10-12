@@ -142,14 +142,13 @@ function Developers() {
   return (
     <Grid
       h="auto"
-      alignItems={"stretch"}
       templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
       templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
       gap={4}
       marginBottom={8}
     >
       {developers.map((dev) => (
-        <GridItem display={"flex"} justifySelf={"stretch"}>
+        <GridItem>
           <TeamCard
             url={dev.image}
             name={dev.name}

@@ -18,8 +18,11 @@ export default function About() {
       <Heading>About the Event</Heading>
       <Box display={["block", "flex"]} gap={4} paddingBlock={8}>
         <Image
-          src="https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+          src="https://images.unsplash.com/photo-1579532582937-16c108930bf6"
           flex={1}
+          // border={"8px"}
+          // borderColor={["red", "green"]}
+          maxW={["100%", "xl"]}
           borderRadius={"lg"}
           marginBottom={[8, 0]}
         />
@@ -68,40 +71,20 @@ export default function About() {
                 fontWeight={"semibold"}
                 fontSize={"lg"}
               >
-                Our intelligence is what makes us human, and AI is an extension
-                of that quality.
+                There is no commerce without community. And there is no community without commerce
               </chakra.p>
               <chakra.span
                 fontFamily={"Inter"}
                 fontWeight={"semibold"}
                 fontSize={"lg"}
               >
-                - Yann LeCun
+                - Michele Jennae
               </chakra.span>
             </Flex>
-            {/* <Avatar
-        src={avatar}
-        height={"80px"}
-        width={"80px"}
-        alignSelf={"center"}
-        m={{ base: "0 0 35px 0", md: "0 0 0 50px" }}
-      /> */}
           </Flex>
-          {/* <blockquote>
-            <p>
-              Our intelligence is what makes us human, and AI is an extension of
-              that quality.
-            </p>
-            <span>Yann LeCun</span>
-          </blockquote> */}
+
           <Text paddingBlock={4} textIndent={32} textAlign={"justify"}>
-            The Center of Excellence in Data Science, CSE department, Institute
-            of Technology, Nirma University presents 48 hours long hackathon
-            from March 3 to March 5 2023. The hackathon will allow students to
-            work on industry-level problems in the domains of Smart Healthcare,
-            Applied Machine Learning for Manufacturing Industry, AI & Big Data,
-            Computer Vision and Deep Learning, Internet Of Things, Natural
-            Language Processing etc.
+            Hackathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary  problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. The event will help in promoting innovation, out-of-the-box thinking in young minds, especially undergraduate students from across India. Hackathon is an excellent opportunity to foster innovation, collaboration, and creativity among students while promoting their technical and problem-solving skills. This event will also provide a platform for students to interact with industry professionals and potential employers.
           </Text>
         </Box>
       </Box>

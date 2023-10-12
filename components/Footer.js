@@ -1,3 +1,4 @@
+import { Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { FaDiscord } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -29,7 +30,9 @@ export default function Footer() {
         <ul className="socials-list">
           <li>
             <Link href={"mailto:gopikajuneja@nirmauni.ac.in"} target="_blank">
-              <MdEmail />
+              <Text _hover={{ color: "purple.400" }}>
+                <MdEmail />
+              </Text>
             </Link>
           </li>
         </ul>

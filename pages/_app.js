@@ -14,13 +14,12 @@ const theme = extendTheme({
 
 export default function App({ Component, pageProps }) {
   const dateTimeForHackathon = new Date("11-09-2023 09:00:00");
-  useEffect(() => { console.log(dateTimeForHackathon) }, [])
   return (
     <ChakraProvider theme={theme}>
-      <NextNProgress />
+      <NextNProgress color="#805AD5" />
       <Fonts />
       <Text align="center" py="4" bgColor="purple.100">
-        <b>Last Date of Registration - 2<sup>nd</sup> November, 2023</b>
+        <b>Registrations closes on - 2<sup>nd</sup> November, 2023</b>
       </Text>
       <Component {...pageProps} />
       <CountDownTimer targetDate={dateTimeForHackathon} />

@@ -31,7 +31,7 @@ export default function CallToActionWithVideo() {
               _after={{
                 content: "''",
                 width: "full",
-                height: "20%",
+                height: "10%",
                 position: "absolute",
                 bottom: 1,
                 left: 0,
@@ -39,17 +39,17 @@ export default function CallToActionWithVideo() {
                 zIndex: -1,
               }}
             >
-              Accathon Hackathon 2023
+              Accathon'23 <br />Accounting Hackathon
             </Text>
             <br />
             <Text fontSize="xl" marginTop="4" color={"purple.400"}>
-              Round 1 (Online):  9<sup>th</sup> November onwards.
+              Round 1 (Online):  9<sup>th</sup> November.
             </Text>
             <Text fontSize="xl" marginTop="4" color={"purple.400"}>
-              Round 2 (Offline):  2<sup>nd</sup> - 3<sup>rd</sup> November onwards.
+              Round 2 (Offline):  2<sup>nd</sup> - 3<sup>rd</sup> November.
             </Text>
             <Text as={"span"} fontSize={["lg", "xl"]} fontWeight="black">
-              Participate and win exciting prizes up to &#8377;1,30,000+
+              Participate and win exciting prizes
             </Text>
           </Heading>
           <Stack

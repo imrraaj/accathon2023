@@ -5,7 +5,7 @@ import Banner from "../components/Banner";
 import Organizers from "../components/Organizers";
 import { Box, Container } from "@chakra-ui/react";
 import Faqs from "../components/Faqs";
-import Testimonials from "../components/Testimonial";
+// import Testimonials from "../components/Testimonial";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
         <Box marginBlock={16}>
           <Banner />
           <Organizers />
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Faqs />
         </Box>
         <Footer />

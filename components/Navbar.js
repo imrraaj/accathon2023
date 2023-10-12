@@ -1,3 +1,4 @@
+import { Text } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef, useState } from "react";
@@ -22,16 +23,29 @@ export default function Navbar() {
         ref={ulRef}
       >
         <li>
-          <Link href="/">About</Link>
+          <Link href="/">
+            <Text _hover={{
+              color: "purple.400"
+            }} >About</Text>
+          </Link>
         </li>
         <li>
-          <Link href="/events">Events</Link>
+          <Link href="/events">
+            <Text _hover={{
+              color: "purple.400"
+            }} >Events</Text></Link>
         </li>
         <li>
-          <Link href="/team">Team</Link>
+          <Link href="/team">
+            <Text _hover={{
+              color: "purple.400"
+            }} >Team</Text></Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">
+            <Text _hover={{
+              color: "purple.400"
+            }} >Contact</Text></Link>
         </li>
       </ul>
       <button

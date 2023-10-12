@@ -13,7 +13,7 @@ import Link from "next/link";
 export default function Partners() {
   return (
     <Box marginBlock={16} id="partners">
-      <Heading marginBlock={"8"}>Partners</Heading>
+      <Heading marginBlock={"8"}>Hosting Partners</Heading>
       <Grid
         h="auto"
         templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
@@ -26,8 +26,8 @@ export default function Partners() {
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <Link href={"https://technology.nirmauni.ac.in/"} target="_blank">
-            <Image src="/Nirma_logo.jpg" width={56} />
+          <Link href={"https://commerce.nirmauni.ac.in/"} target="_blank">
+            <Image src="/icnu_logo.png" width={56} />
           </Link>
         </GridItem>
         <GridItem
@@ -36,10 +36,11 @@ export default function Partners() {
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <Link href={"https://commerce.nirmauni.ac.in/"} target="_blank">
-            <Image src="/GMC_Logo.png" width={32} />
+          <Link href={"https://technology.nirmauni.ac.in/"} target="_blank">
+            <Image src="/Nirma_logo.jpg" width={56} />
           </Link>
         </GridItem>
+
         <GridItem
           cursor={"pointer"}
           display={"flex"}
@@ -47,7 +48,7 @@ export default function Partners() {
           alignItems={"center"}
         >
           <Link href={"https://indianaccounting.org/"} target="_blank">
-            <Image src="/IAA.svg" width={48} />
+            <Image src="/IAA.svg" width={32} />
           </Link>
         </GridItem>
       </Grid>
