@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
     <ChakraProvider theme={theme}>
       <NextNProgress />
       <Fonts />
-      <Text align="center" py="4" bgColor="blue.200">
+      <Text align="center" py="4" bgColor="gray.500">
         <b>Registration has started...</b>
       </Text>
       <Component {...pageProps} />

@@ -26,8 +26,8 @@ export default function Partners() {
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <Link href={"https://www.cognizant.com/us/en"} target="_blank">
-            <Image src="/cog.svg" width={56} />
+          <Link href={"https://technology.nirmauni.ac.in/"} target="_blank">
+            <Image src="/Nirma_logo.jpg" width={56} />
           </Link>
         </GridItem>
         <GridItem
@@ -36,7 +36,7 @@ export default function Partners() {
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <Link href={"https://givemycertificate.com/"} target="_blank">
+          <Link href={"https://commerce.nirmauni.ac.in/"} target="_blank">
             <Image src="/GMC_Logo.png" width={32} />
           </Link>
         </GridItem>
@@ -46,8 +46,8 @@ export default function Partners() {
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <Link href={"https://www.echo3d.com/"} target="_blank">
-            <Image src="/echo3D_Logo.png" width={48} />
+          <Link href={"https://indianaccounting.org/"} target="_blank">
+            <Image src="/IAA.svg" width={48} />
           </Link>
         </GridItem>
       </Grid>

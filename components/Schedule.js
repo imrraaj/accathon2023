@@ -41,12 +41,12 @@ export default function Schedule() {
         <TabPanels>
           <TabPanel>
             <Text fontWeight={"black"} fontSize="xl">
-              Declared on Discord
+              TBD
             </Text>
           </TabPanel>
           <TabPanel>
             <Text fontWeight={"black"} fontSize="xl">
-              Declared on Discord
+              TBD
             </Text>
           </TabPanel>
         </TabPanels>

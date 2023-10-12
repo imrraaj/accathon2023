@@ -29,18 +29,10 @@ export default function Home() {
             textAlign={["center", "left"]}
             paddingBlock={4}
           >
-            Advisors
+            Faculty Commitee
           </Heading>
           <Advisor />
-          <Heading
-            size={"lg"}
-            color={"blue.400"}
-            textAlign={["center", "left"]}
-            paddingBlock={4}
-          >
-            Coordinators
-          </Heading>
-          <Coordinators />
+
           <Heading
             size={"lg"}
             color={"blue.400"}
@@ -57,70 +49,32 @@ export default function Home() {
   );
 }
 
-function Coordinators() {
-  const coordinators = [
-    {
-      name: "Dr Sapan H Mankad",
-      image: "/sapan_mankad.jpg",
-      linkedIn: "https://www.linkedin.com/in/sapan-mankad-4815601a/",
-    },
-    {
-      name: "Dr Vishal Parikh",
-      image: "/vishal_parikh.jpg",
-      linkedIn: "https://technology.nirmauni.ac.in/author/vishalparikh/",
-    },
-    {
-      name: "Dr Rupal Kapdi",
-      image: "/rupal_kapdi.jpeg",
-      linkedIn: "https://www.linkedin.com/in/dr-rupal-kapdi-474620256",
-    },
-  ];
-  return (
-    <Grid
-      h="auto"
-      templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
-      templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
-      gap={4}
-      marginBottom={8}
-    >
-      {coordinators.map((ad) => (
-        <GridItem>
-          <TeamCard
-            url={ad.image}
-            name={ad.name}
-            description={""}
-            link={ad.linkedIn}
-          />
-        </GridItem>
-      ))}
-    </Grid>
-  );
-}
+
 function Advisor() {
   const advisors = [
     {
-      name: "Dr R N Patel",
-      designation: "Director",
+      name: "Dr Udai Paliwal",
+      designation: "Dean and Director, ICNU ",
       image: "/dr_rn_patel.jpg",
       linkedIn: "https://www.linkedin.com/in/rajesh-patel-b5144256/",
     },
     {
-      name: "Dr Madhuri Bhavsar",
+      name: "Prof Gopika Juneja",
       image: "/dr_madhuri_bhavsar.jpg",
       linkedIn: "https://www.linkedin.com/in/dr-madhuri-gujar-bhavsar-3bb61a6/",
     },
     {
-      name: "Dr Sangwon Yoon",
+      name: "Prof Gaurang Rawal",
       image: "/dr_yoon.jpg",
       linkedIn: "https://www.linkedin.com/in/sang-won-yoon-bb886722/",
     },
     {
-      name: "Dr Priyank Thakkar",
+      name: "Prof Jitendra Bhatia",
       image: "/priyank_thakkar.jpg",
       linkedIn: "https://www.linkedin.com/in/priyank-thakkar-4701689b/",
     },
     {
-      name: "Dr Swati Jain",
+      name: "Representative, Indian Accounting Association",
       image: "/swati_jain.jpg",
       linkedIn: "https://www.linkedin.com/in/swati-jain-54845311/",
     },
@@ -150,45 +104,40 @@ function Advisor() {
 function Developers() {
   const developers = [
     {
-      name: "Raj Patel",
+      name: "Shruti Jain, ICNU",
       image: "/raj_patel.jpg",
       linkedIn: "https://www.linkedin.com/in/raj-k-patel21/",
     },
     {
-      name: "Vishal Chaudhary ",
+      name: "Parth Sanghvi, ICNU",
       image: "/vishal_chaudhary.jpeg",
       linkedIn: "https://www.linkedin.com/in/vishal-chaudhary-95b2571a6",
     },
     {
-      name: "Kuldip Chaudhari",
+      name: "Disha Tank, ICNU",
       image: "/kuldip_chaudhari.jpg",
       linkedIn: "https://www.linkedin.com/in/kuldip-chaudhari-726b651a3",
     },
     {
-      name: "Dhairya",
+      name: "Gungun Gangwani, ICNU",
       image: "/dhairya_bakshi.jpg",
       linkedIn: "https://www.linkedin.com/in/dhairya-baxi-38908a1b9",
     },
     {
-      name: "Jay Patel",
+      name: "Raj Patel, ITNU",
       image: "/jay_patel.jpg",
       linkedIn: "https://www.linkedin.com/in/jay-patel-4005a8227",
     },
     {
-      name: "Kiran Kher",
+      name: "Vikas Dhanani, ITNU",
       image: "kiran_kher.jpg",
       linkedIn: "https://www.linkedin.com/in/kiran-kher-a517b9225",
     },
     {
-      name: "Shubh Patel",
+      name: "Dhairya Baxi, ITNU",
       image: "shubh_patel.jpg",
       linkedIn: "https://www.linkedin.com/in/shubh26/",
-    },
-    {
-      name: "Kajal Lochab",
-      image: "/Kajal_Lochab.jpg",
-      linkedIn: "https://www.linkedin.com/in/kajal-lochab",
-    },
+    }
   ];
   return (
     <Grid

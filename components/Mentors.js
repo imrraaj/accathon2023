@@ -18,87 +18,7 @@ export default function Mentors() {
       linkedIn: "https://www.linkedin.com/in/htrap94/",
       designation: "AI @ Cactus Labs",
       company: "",
-    },
-    {
-      name: "Dvijesh Bhatt",
-      image: "/dvijesh_bhatt.jpeg",
-      linkedIn: "https://www.linkedin.com/in/dvijesh-bhatt-76283920/",
-      designation: "Senior Product Engineer (AI/ML)",
-      company: "Myelin Foundry",
-    },
-    {
-      name: "Amrish Patel",
-      image: "/amrish_patel.jpg",
-      linkedIn: "https://www.linkedin.com/in/amrish-patel-1139b84/",
-      designation: "Founder",
-      company: "MLveda",
-    },
-    {
-      name: "Deepak Sharma",
-      image: "/deepak_sharma.jpg",
-      linkedIn: "https://www.linkedin.com/in/deepak-sharma-a528b015/",
-      designation: "Sr. Manager (IT)",
-      company: "J K Organisation(Udaipur Cement Works Ltd.)",
-    },
-    {
-      name: "Shrikant Kulkarni",
-      image: "/Shrikant_Kulkarni.jpg",
-      linkedIn: "https://www.linkedin.com/in/shrikantkulkarni/",
-      designation: "",
-      company: "Cognizant",
-    },
-    {
-      name: "Sujit Patange",
-      image: "/Sujit_Patange.jpg",
-      linkedIn: "https://www.linkedin.com/in/sujitpatange/",
-      designation: "",
-      company: "Cognizant",
-    },
-    {
-      name: "Saktipada Maity",
-      image: "/Saktipada_Maity.jpg",
-      linkedIn: "https://www.linkedin.com/in/saktipada-maity-10b08330/",
-      designation: "",
-      company: "Cognizant",
-    },
-    {
-      name: "Hardik Prajapati",
-      image: "/hk.jpg",
-      linkedIn: "https://www.linkedin.com/in/prajapati-hardik/",
-      designation: "R & D Engineer",
-      company: "InFoCusp",
-    },
-    {
-      name: "Param Shah",
-      image: "/param_shah.jpg",
-      linkedIn: "https://www.linkedin.com/in/param-shah-ba281b190/",
-      designation: "Intern at D360 Technologies",
-      company: "",
-    },
-    {
-      name: "Manil Shah",
-      image: "/manil.jpeg",
-      linkedIn: "https://www.linkedin.com/in/manilshah913/",
-      designation:
-        "Student of CSE at Institute of Technology, Nirma University",
-      company: "",
-    },
-    {
-      name: "Hardik Maisuria",
-      image: "/hardik.jpeg",
-      linkedIn: "https://www.linkedin.com/in/hardik-maisuria-675370208/",
-      designation:
-        "Student of CSE at Institute of Technology, Nirma University",
-      company: "",
-    },
-    {
-      name: "Kalp Mepani",
-      image: "/kalp.jpeg",
-      linkedIn: "https://www.linkedin.com/in/kalp-mepani-5350671a2/",
-      designation:
-        "Student of CSE at Institute of Technology, Nirma University",
-      company: "",
-    },
+    }
   ];
   return (
     <Box marginBlock={16} id="mentors">
@@ -109,7 +29,8 @@ export default function Mentors() {
         gap={4}
         marginBottom={8}
       >
-        {mentors.map((dev) => (
+        No mentors declared yet
+        {/* {mentors.map((dev) => (
           <GridItem key={dev.name}>
             <MentorCard
               url={dev.image}
@@ -119,7 +40,7 @@ export default function Mentors() {
               company={dev.company}
             />
           </GridItem>
-        ))}
+        ))} */}
       </Grid>
     </Box>
   );

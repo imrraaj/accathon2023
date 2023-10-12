@@ -16,39 +16,29 @@ export default function Prizes() {
     <>
       <Box>
         <Heading textAlign={["center", "start"]}>
-          Grand Prizes sponsored by SUNY Binghamton University
+          Grand Prizes
         </Heading>
         <Grid
           h="auto"
-          templateRows={{ sm: "repeat(3, 1fr)", md: "repeat(1, 1fr)" }}
-          templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
+          templateRows={{ sm: "repeat(2, 1fr)", md: "repeat(1, 1fr)" }}
+          templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }}
           gap={4}
           marginBlock={8}
         >
-          <GridItem order={[2, 1]}>
-            <PrizeCard
-              imgUrl={"/silver.svg"}
-              money={300}
-              text={"1st Runner-Up"}
-              mgtop={16}
-              order={2}
-            />
-          </GridItem>
-          <GridItem order={[1, 2]}>
+          <GridItem>
             <PrizeCard
               imgUrl={"/gold.svg"}
-              money={500}
-              text={"Winner"}
+              money={15000}
+              text={"1st Prize"}
               order={1}
             />
           </GridItem>
-          <GridItem order={[3, 3]}>
+          <GridItem>
             <PrizeCard
-              imgUrl={"/bronze.svg"}
-              money={200}
-              text={"2nd Runner-Up"}
-              mgtop={20}
-              order={3}
+              imgUrl={"/silver.svg"}
+              money={10000}
+              text={"2nd Prize"}
+              order={2}
             />
           </GridItem>
         </Grid>
@@ -73,7 +63,7 @@ function PrizeCard({ imgUrl, money, text, mgtop }) {
       cursor={"pointer"}
     >
       <Image src={imgUrl}></Image>
-      <Heading fontSize={"4xl"}>${money}</Heading>
+      <Heading fontSize={"4xl"}>₹{money}</Heading>
       <Text fontSize={"2xl"} fontWeight={"black"}>
         {text}
       </Text>

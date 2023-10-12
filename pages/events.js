@@ -33,7 +33,7 @@ export default function Contact() {
           <About />
           <Prizes />
           <Tracks />
-          <Mentors />
+          {/* <Mentors /> */}
           <Schedule />
           <Sponsors />
           <Partners />

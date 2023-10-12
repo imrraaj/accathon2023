@@ -131,7 +131,7 @@ export default function contact() {
                           color="white"
                           _hover={{}}
                           as={"a"}
-                          href={`mailto:sapanmankad@nirmauni.ac.in?subject=${encodeURI(
+                          href={`mailto:gopikajuneja@nirmauni.ac.in?subject=${encodeURI(
                             contactDetails.name
                           )}&body=${encodeURI(contactDetails.desc)}`}
                         >
