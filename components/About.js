@@ -32,7 +32,7 @@ export default function About() {
             p={10}
             justifyContent={"space-between"}
             position={"relative"}
-            bg={useColorModeValue("white", "gray.800")}
+            bg={useColorModeValue("white", "purple.800")}
             _after={{
               content: '""',
               position: "absolute",

@@ -44,7 +44,7 @@ export default function contact() {
               <WrapItem>
                 <Box paddingInline={[2, 0]}>
                   <Heading paddingBlock={[2, 0]}>Contact</Heading>
-                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.500">
+                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="purple.500">
                     Fill up the form below to contact
                   </Text>
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
@@ -56,7 +56,7 @@ export default function contact() {
                         color="#DCE2FF"
                         as={"a"}
                         href={"mailto:gopikajuneja@nirmauni.ac.in"}
-                        _hover={{ bgColor: "blue.900" }}
+                        _hover={{ bgColor: "purple.900" }}
                         leftIcon={<MdEmail color="#1970F1" size="20px" />}
                       >
                         gopikajuneja@nirmauni.ac.in
@@ -75,7 +75,7 @@ export default function contact() {
                           <InputGroup borderColor="#E0E1E7">
                             <InputLeftElement
                               pointerEvents="none"
-                              children={<BsPerson color="gray.800" />}
+                              children={<BsPerson color="purple.800" />}
                             />
                             <Input
                               type="text"
@@ -96,7 +96,7 @@ export default function contact() {
                           <InputGroup borderColor="#E0E1E7">
                             <InputLeftElement
                               pointerEvents="none"
-                              children={<BsPerson color="gray.800" />}
+                              children={<BsPerson color="purple.800" />}
                             />
                             <Input
                               type="email"

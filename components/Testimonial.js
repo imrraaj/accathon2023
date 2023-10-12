@@ -54,7 +54,7 @@ function TestimonialCard(props) {
       p={10}
       justifyContent={"space-between"}
       position={"relative"}
-      bg={useColorModeValue("white", "gray.800")}
+      bg={useColorModeValue("white", "purple.800")}
       _after={{
         content: '""',
         position: "absolute",
@@ -120,7 +120,7 @@ export default function Testimonials() {
           py={5}
           fontSize={48}
           fontWeight={"bold"}
-          color={useColorModeValue("gray.700", "gray.50")}
+          color={useColorModeValue("purple.700", "purple.50")}
         >
           Testimonials
         </chakra.h1>
@@ -128,7 +128,7 @@ export default function Testimonials() {
           py={5}
           fontSize={"lg"}
           fontWeight={"bold"}
-          color={useColorModeValue("gray.700", "gray.50")}
+          color={useColorModeValue("purple.700", "purple.50")}
         >
           What did participants learn from the event?
         </chakra.h2>

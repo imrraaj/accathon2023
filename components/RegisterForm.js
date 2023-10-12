@@ -39,7 +39,7 @@ export default function contact() {
     }
   };
   return (
-    <Box bg="blue.700" borderRadius="lg" py="16" px="5" maxW="5xl" mx="auto">
+    <Box bg="purple.700" borderRadius="lg" py="16" px="5" maxW="5xl" mx="auto">
       <Heading textAlign="center" mb="8" color="white">
         Registration Form
       </Heading>
@@ -56,7 +56,7 @@ export default function contact() {
       >
         Link For the registrations
       </Text>
-      <Box bg="white" color="blue.700" borderRadius="lg" p={8} m={[0, 8]}>
+      <Box bg="white" color="purple.700" borderRadius="lg" p={8} m={[0, 8]}>
         <form onSubmit={handleSubmit}>
           <VStack spacing={5}>
             <CustomInput
@@ -159,7 +159,7 @@ export default function contact() {
             type="submit"
             my={8}
             variant="solid"
-            bg="blue.700"
+            bg="purple.700"
             color="white"
             _focus={{}}
             _hover={{}}
@@ -189,7 +189,7 @@ function CustomInput({
         {Icon && (
           <InputLeftElement
             pointerEvents="none"
-            children={<Icon color="gray.800" />}
+            children={<Icon color="purple.800" />}
           />
         )}
         <Input

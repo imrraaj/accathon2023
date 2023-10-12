@@ -25,7 +25,7 @@ export default function Home() {
           </Heading>
           <Heading
             size={"lg"}
-            color={"blue.400"}
+            color={"purple.400"}
             textAlign={["center", "left"]}
             paddingBlock={4}
           >
@@ -35,7 +35,7 @@ export default function Home() {
 
           <Heading
             size={"lg"}
-            color={"blue.400"}
+            color={"purple.400"}
             textAlign={["center", "left"]}
             paddingBlock={4}
           >
@@ -74,7 +74,7 @@ function Advisor() {
       linkedIn: "https://www.linkedin.com/in/priyank-thakkar-4701689b/",
     },
     {
-      name: "Representative, Indian Accounting Association",
+      name: "Representative, IAA",
       image: "/swati_jain.jpg",
       linkedIn: "https://www.linkedin.com/in/swati-jain-54845311/",
     },
@@ -83,7 +83,7 @@ function Advisor() {
     <Grid
       h="auto"
       templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
-      templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
+      templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
       gap={4}
       marginBottom={8}
     >
@@ -142,13 +142,14 @@ function Developers() {
   return (
     <Grid
       h="auto"
+      alignItems={"stretch"}
       templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
-      templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
+      templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
       gap={4}
       marginBottom={8}
     >
       {developers.map((dev) => (
-        <GridItem>
+        <GridItem display={"flex"} justifySelf={"stretch"}>
           <TeamCard
             url={dev.image}
             name={dev.name}

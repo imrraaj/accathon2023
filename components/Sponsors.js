@@ -25,7 +25,7 @@ export default function Sponsors() {
         <GridItem
           cursor={"pointer"}
           border={2}
-          borderColor={"blue"}
+          borderColor={"purple"}
         >
           No Sponsers declared yet
           {/* <Link href={"https://cactusglobal.com/"} target="_blank"> */}

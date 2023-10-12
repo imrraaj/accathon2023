@@ -19,8 +19,8 @@ export default function App({ Component, pageProps }) {
     <ChakraProvider theme={theme}>
       <NextNProgress />
       <Fonts />
-      <Text align="center" py="4" bgColor="gray.500">
-        <b>Registration has started...</b>
+      <Text align="center" py="4" bgColor="purple.100">
+        <b>Last Date of Registration - 2<sup>nd</sup> November, 2023</b>
       </Text>
       <Component {...pageProps} />
       <CountDownTimer targetDate={dateTimeForHackathon} />

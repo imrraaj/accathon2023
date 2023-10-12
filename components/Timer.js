@@ -57,7 +57,7 @@ const CountdownTimer = ({ targetDate }) => {
           position={"fixed"}
           bottom="0"
           right="0"
-          bgColor="blue.200"
+          bgColor="purple.100"
           p="4"
           width={"full"}
           zIndex="1000"

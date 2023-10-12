@@ -35,17 +35,17 @@ export default function CallToActionWithVideo() {
                 position: "absolute",
                 bottom: 1,
                 left: 0,
-                bg: "blue.400",
+                bg: "purple.400",
                 zIndex: -1,
               }}
             >
               Accathon Hackathon 2023
             </Text>
             <br />
-            <Text fontSize="xl" marginTop="4" color={"blue.400"}>
+            <Text fontSize="xl" marginTop="4" color={"purple.400"}>
               Round 1 (Online):  9<sup>th</sup> November onwards.
             </Text>
-            <Text fontSize="xl" marginTop="4" color={"blue.400"}>
+            <Text fontSize="xl" marginTop="4" color={"purple.400"}>
               Round 2 (Offline):  2<sup>nd</sup> - 3<sup>rd</sup> November onwards.
             </Text>
             <Text as={"span"} fontSize={["lg", "xl"]} fontWeight="black">
@@ -58,14 +58,28 @@ export default function CallToActionWithVideo() {
           >
             <Button
               rounded={"full"}
-              colorScheme={"blue"}
+              colorScheme={"purple"}
               size={"lg"}
               fontWeight={"normal"}
               px={6}
               as={Link}
+              target="_blank"
               href="https://docs.google.com/forms/d/e/1FAIpQLSdRMfQ5Q_s8QbddWujAl52rTbueJMoHotJL0cOEhv-wzBEYgw/viewform?usp=sf_link"
             >
               Register here
+            </Button>
+            <Button
+              variant={"outline"}
+              rounded={"full"}
+              colorScheme={"purple"}
+              size={"lg"}
+              fontWeight={"normal"}
+              px={6}
+              as={Link}
+              target="_blank"
+              href="https://docs.google.com/document/d/18GZEtXwyubZNQ2zXRVRXsWNNJxsXigz3prg8HrWHgPM/edit?usp=sharing"
+            >
+              Guidelines
             </Button>
           </Stack>
         </Stack>
@@ -83,7 +97,7 @@ export default function CallToActionWithVideo() {
             top={"-20%"}
             left={0}
             zIndex={-1}
-            color={useColorModeValue("blue.50", "blue.400")}
+            color={useColorModeValue("purple.50", "purple.400")}
           />
           <Box
             position={"relative"}

@@ -23,7 +23,7 @@ export default function Schedule() {
         <TabList mb="1em">
           <Tab
             fontSize={"lg"}
-            color={"blue.400"}
+            color={"purple.400"}
             fontWeight={"bold"}
             border={"2px"}
           >
@@ -31,7 +31,7 @@ export default function Schedule() {
           </Tab>
           <Tab
             fontSize={"lg"}
-            color={"blue.400"}
+            color={"purple.400"}
             fontWeight={"bold"}
             border={"2px"}
           >

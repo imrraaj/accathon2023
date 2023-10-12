@@ -171,7 +171,7 @@ export default function Faqs() {
           {FAQS.map((item) => {
             return (
               <Box marginBlock={8} key={item.category}>
-                <Heading size={"md"} marginBlock={4} color={"blue.400"}>
+                <Heading size={"md"} marginBlock={4} color={"purple.400"}>
                   {item.category}
                 </Heading>
 

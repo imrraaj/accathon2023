@@ -59,7 +59,7 @@ function PrizeCard({ imgUrl, money, text, mgtop }) {
       paddingBlock={8}
       borderRadius={"lg"}
       marginTop={[0, mgtop]}
-      _hover={{ bgColor: "blue.50" }}
+      _hover={{ bgColor: "purple.50" }}
       cursor={"pointer"}
     >
       <Image src={imgUrl}></Image>
