@@ -38,13 +38,13 @@ export default function contact() {
   return (
     <Center>
       <Flex>
-        <Box bg={["#02054B"]} color="white" borderRadius="lg" p={[0, 5, 16]}>
+        <Box bg={["purple.600"]} color="white" borderRadius="lg" p={[0, 5, 16]}>
           <Box p={4}>
             <Wrap spacing={{ base: 20, sm: 5, md: 5, lg: 20 }}>
               <WrapItem>
                 <Box paddingInline={[2, 0]}>
                   <Heading paddingBlock={[2, 0]}>Contact</Heading>
-                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="purple.500">
+                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="white">
                     Fill up the form below to contact
                   </Text>
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
@@ -57,7 +57,7 @@ export default function contact() {
                         as={"a"}
                         href={"mailto:gopikajuneja@nirmauni.ac.in"}
                         _hover={{ bgColor: "purple.900" }}
-                        leftIcon={<MdEmail color="#1970F1" size="20px" />}
+                        leftIcon={<MdEmail size="20px" />}
                       >
                         gopikajuneja@nirmauni.ac.in
                       </Button>
@@ -127,7 +127,7 @@ export default function contact() {
                         </FormControl>
                         <Button
                           variant="solid"
-                          bg="#0D74FF"
+                          bg="purple.400"
                           color="white"
                           _hover={{}}
                           as={"a"}
