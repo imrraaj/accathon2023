@@ -29,7 +29,7 @@ export default function Home() {
             textAlign={["center", "left"]}
             paddingBlock={4}
           >
-            Faculty Commitee
+            Faculty Committee
           </Heading>
           <Advisor />
 
@@ -39,7 +39,7 @@ export default function Home() {
             textAlign={["center", "left"]}
             paddingBlock={4}
           >
-            Team Members
+            Student Committee
           </Heading>
           <Developers />
         </Box>
@@ -55,28 +55,32 @@ function Advisor() {
     {
       name: "Dr Udai Paliwal",
       designation: "Dean and Director, ICNU ",
-      image: "/dr_rn_patel.jpg",
-      linkedIn: "https://www.linkedin.com/in/rajesh-patel-b5144256/",
+      image: "/udai_paliwal.jpeg",
+      linkedIn: "https://www.linkedin.com/in/prof-udai-paliwal-55aa709a",
     },
     {
       name: "Prof Gopika Juneja",
-      image: "/dr_madhuri_bhavsar.jpg",
-      linkedIn: "https://www.linkedin.com/in/dr-madhuri-gujar-bhavsar-3bb61a6/",
+      designation: "Assistant Professor, ICNU",
+      image: "/gopika_juneja.jpeg",
+      linkedIn: "https://www.linkedin.com/in/gopika-juneja-a6534b156/",
     },
     {
       name: "Prof Gaurang Rawal",
-      image: "/dr_yoon.jpg",
-      linkedIn: "https://www.linkedin.com/in/sang-won-yoon-bb886722/",
+      designation: "Assistant Professor, ITNU",
+      image: "/gaurang_raval.jpeg",
+      linkedIn: "https://www.linkedin.com/in/gaurang-raval-919b0017",
     },
     {
       name: "Prof Jitendra Bhatia",
-      image: "/priyank_thakkar.jpg",
-      linkedIn: "https://www.linkedin.com/in/priyank-thakkar-4701689b/",
+      designation: "Assistant Professor, ITNU",
+      image: "/jitendra_bhatia.jpeg",
+      linkedIn: "https://www.linkedin.com/in/jitendrabbhatia/",
     },
     {
-      name: "Representative, IAA",
-      image: "/swati_jain.jpg",
-      linkedIn: "https://www.linkedin.com/in/swati-jain-54845311/",
+      name: "Sanjay Bhayani",
+      designation: "General Secretary, Indian Accounting Association",
+      image: "/sanjay_bhayani.jpeg",
+      linkedIn: "https://www.linkedin.com/in/sanjay-bhayani-505b901a0",
     },
   ];
   return (
@@ -85,6 +89,8 @@ function Advisor() {
       templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
       templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
       gap={4}
+      alignItems={'center'}
+      justifyContent={"start"}
       marginBottom={8}
     >
       {advisors.map((ad) => (
@@ -104,37 +110,44 @@ function Advisor() {
 function Developers() {
   const developers = [
     {
-      name: "Shruti Jain, ICNU",
+      name: "Shruti Jain",
+      institute: "ICNU",
       image: "/raj_patel.jpg",
-      linkedIn: "https://www.linkedin.com/in/raj-k-patel21/",
+      linkedIn: "",
     },
     {
-      name: "Parth Sanghvi, ICNU",
+      name: "Parth Sanghvi",
+      institute: "ICNU",
       image: "/vishal_chaudhary.jpeg",
       linkedIn: "https://www.linkedin.com/in/vishal-chaudhary-95b2571a6",
     },
     {
-      name: "Disha Tank, ICNU",
+      name: "Disha Tank",
+      institute: "ICNU",
       image: "/kuldip_chaudhari.jpg",
       linkedIn: "https://www.linkedin.com/in/kuldip-chaudhari-726b651a3",
     },
     {
-      name: "Gungun Gangwani, ICNU",
+      name: "Gungun Gangwani",
+      institute: "ICNU",
       image: "/dhairya_bakshi.jpg",
       linkedIn: "https://www.linkedin.com/in/dhairya-baxi-38908a1b9",
     },
     {
-      name: "Raj Patel, ITNU",
+      name: "Raj Patel",
+      institute: "ITNU",
       image: "/jay_patel.jpg",
-      linkedIn: "https://www.linkedin.com/in/jay-patel-4005a8227",
+      linkedIn: "https://www.linkedin.com/in/raj-k-patel21/",
     },
     {
-      name: "Vikas Dhanani, ITNU",
+      name: "Vikas Dhanani",
+      institute: "ITNU",
       image: "kiran_kher.jpg",
       linkedIn: "https://www.linkedin.com/in/kiran-kher-a517b9225",
     },
     {
-      name: "Dhairya Baxi, ITNU",
+      name: "Dhairya Baxi",
+      institute: "ITNU",
       image: "shubh_patel.jpg",
       linkedIn: "https://www.linkedin.com/in/shubh26/",
     }
@@ -152,7 +165,7 @@ function Developers() {
           <TeamCard
             url={dev.image}
             name={dev.name}
-            description={""}
+            description={dev.institute}
             link={dev.linkedIn}
           />
         </GridItem>

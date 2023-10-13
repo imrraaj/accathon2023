@@ -43,10 +43,10 @@ export default function CallToActionWithVideo() {
             </Text>
             <br />
             <Text fontSize="xl" marginTop="4" color={"purple.400"}>
-              Round 1 (Online):  9<sup>th</sup> November.
+              1 <sup>st</sup> Round (Online):  9<sup>th</sup> November
             </Text>
             <Text fontSize="xl" marginTop="4" color={"purple.400"}>
-              Round 2 (Offline):  2<sup>nd</sup> - 3<sup>rd</sup> November.
+              2 <sup>nd</sup> Round at Nirma University Campus:  2<sup>nd</sup> - 3<sup>rd</sup> December
             </Text>
             <Text as={"span"} fontSize={["lg", "xl"]} fontWeight="black">
               Participate and win exciting prizes

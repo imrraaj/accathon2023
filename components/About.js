@@ -84,7 +84,7 @@ export default function About() {
           </Flex>
 
           <Text paddingBlock={4} textIndent={32} textAlign={"justify"}>
-            Hackathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary  problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. The event will help in promoting innovation, out-of-the-box thinking in young minds, especially undergraduate students from across India. Hackathon is an excellent opportunity to foster innovation, collaboration, and creativity among students while promoting their technical and problem-solving skills. This event will also provide a platform for students to interact with industry professionals and potential employers.
+            Accathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary  problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. The event will help in promoting innovation, out-of-the-box thinking in young minds, especially undergraduate students from across India. Accathon is an excellent opportunity to foster innovation, collaboration, and creativity among students while promoting their technical and problem-solving skills. This event will also provide a platform for students to interact with industry professionals and potential employers.
           </Text>
         </Box>
       </Box>

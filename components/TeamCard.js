@@ -23,25 +23,25 @@ export default function TeamCard({ url, name, description, link }) {
         <Heading fontSize={"2xl"} fontFamily={"body"}>
           {name}
         </Heading>
-        <Text textAlign={"center"} px={3}>
+        <Text textAlign={"center"} maxW={"20ch"} mx={"auto"} px={3}>
           {description}
         </Text>
 
-        {/* <Stack mt={8} direction={"row"} spacing={4} justifyContent={"center"}>
+        <Stack mt={8} direction={"row"} spacing={4} justifyContent={"center"}>
           <Button
             fontSize={"md"}
             paddingInline={8}
             rounded={"full"}
-            bg={"purple.400"}
+            bg={"blue.400"}
             color={"white"}
             boxShadow={
               "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
             }
             _hover={{
-              bg: "purple.500",
+              bg: "blue.500",
             }}
             _focus={{
-              bg: "purple.500",
+              bg: "blue.500",
             }}
             as={"a"}
             href={link}
@@ -53,7 +53,7 @@ export default function TeamCard({ url, name, description, link }) {
           >
             Connect
           </Button>
-        </Stack> */}
+        </Stack>
       </Box>
     </Center>
   );

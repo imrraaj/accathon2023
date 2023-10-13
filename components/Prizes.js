@@ -28,7 +28,7 @@ export default function Prizes() {
           <GridItem>
             <PrizeCard
               imgUrl={"/gold.svg"}
-              money={15000}
+              money={"15,000"}
               text={"1st Prize"}
               order={1}
             />
@@ -36,7 +36,7 @@ export default function Prizes() {
           <GridItem>
             <PrizeCard
               imgUrl={"/silver.svg"}
-              money={10000}
+              money={"10,000"}
               text={"2nd Prize"}
               order={2}
             />
