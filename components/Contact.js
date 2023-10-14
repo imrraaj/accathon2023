@@ -115,7 +115,7 @@ export default function contact() {
                         <FormControl isRequired id="desc">
                           <FormLabel>Message</FormLabel>
                           <Textarea
-                            placeholder="message"
+                            placeholder="Message"
                             name="desc"
                             onChange={(e) => {
                               setContactDetails({

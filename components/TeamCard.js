@@ -13,7 +13,7 @@ export default function TeamCard({ url, name, description, link }) {
   return (
     <Center py={6}>
       <Box
-        boxShadow={"md"}
+        boxShadow={"1px 1px 10px darkgray"}
         rounded={"lg"}
         p={6}
         textAlign={"center"}
@@ -23,7 +23,7 @@ export default function TeamCard({ url, name, description, link }) {
         <Heading fontSize={"2xl"} fontFamily={"body"}>
           {name}
         </Heading>
-        <Text textAlign={"center"} maxW={"20ch"} mx={"auto"} px={3}>
+        <Text textAlign={"center"} px={3}>
           {description}
         </Text>
 

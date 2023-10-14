@@ -77,7 +77,13 @@ function Advisor() {
       linkedIn: "https://www.linkedin.com/in/jitendrabbhatia/",
     },
     {
-      name: "Sanjay Bhayani",
+      name: "Prof Sunil Gautam",
+      designation: "Assistant Professor, ITNU",
+      image: "/sunil_gautam.jpeg",
+      linkedIn: "https://www.linkedin.com/in/sunil-g-a02658246/",
+    },
+    {
+      name: "Dr Sanjay Bhayani",
       designation: "General Secretary, Indian Accounting Association",
       image: "/sanjay_bhayani.jpeg",
       linkedIn: "https://www.linkedin.com/in/sanjay-bhayani-505b901a0",

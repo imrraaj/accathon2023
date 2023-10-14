@@ -28,27 +28,17 @@ export default function CallToActionWithVideo() {
               fontSize={"5xl"}
               as={"span"}
               position={"relative"}
-              _after={{
-                content: "''",
-                width: "full",
-                height: "10%",
-                position: "absolute",
-                bottom: 1,
-                left: 0,
-                bg: "purple.400",
-                zIndex: -1,
-              }}
             >
               Accathon'23 <br />Accounting Hackathon
             </Text>
             <br />
             <Text fontSize="xl" marginTop="4" color={"purple.400"}>
-              1 <sup>st</sup> Round (Online):  9<sup>th</sup> November
+              1 <sup>st</sup> Round (Online):  9<sup>th</sup> November, 2023
             </Text>
             <Text fontSize="xl" marginTop="4" color={"purple.400"}>
-              2 <sup>nd</sup> Round at Nirma University Campus:  2<sup>nd</sup> - 3<sup>rd</sup> December
+              2 <sup>nd</sup> Round (Nirma University Campus):  2<sup>nd</sup> - 3<sup>rd</sup> December, 2023
             </Text>
-            <Text as={"span"} fontSize={["lg", "xl"]} fontWeight="black">
+            <Text fontSize={["lg", "xl"]} fontWeight="black" marginTop={"12"}>
               Participate and win exciting prizes
             </Text>
           </Heading>

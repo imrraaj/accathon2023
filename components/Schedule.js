@@ -22,7 +22,7 @@ export default function Schedule() {
       <Tabs isFitted variant="enclosed">
         <TabList mb="1em">
           <Tab
-            fontSize={"lg"}
+            fontSize={"xl"}
             color={"purple.400"}
             fontWeight={"bold"}
             border={"2px"}
@@ -30,7 +30,7 @@ export default function Schedule() {
             Day 1
           </Tab>
           <Tab
-            fontSize={"lg"}
+            fontSize={"xl"}
             color={"purple.400"}
             fontWeight={"bold"}
             border={"2px"}

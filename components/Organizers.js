@@ -9,6 +9,32 @@ export default function Organizers() {
 
       <Box>
 
+        <Box marginTop={8} display={{ md: "flex" }} alignItems={"center"} gap={[16, 8]}>
+          <Image
+            src="/IAA.svg"
+            alt="Nirma University Logo"
+            flex="0.5"
+            marginInline="auto"
+            order={[1, 1]}
+            display="block"
+            width={["xl"]}
+          ></Image>
+          <Text
+            flex="1.5"
+            fontWeight="semibold"
+            textAlign="justify"
+            order={[2, 2]}
+            marginBlock={[16, 0]}
+          >
+            The Indian Accounting Association is an interface between academicians, professional and practitioners from various universities, business, industry and government. The main function of IAA is to promote and disseminate the knowledge of accounting and the related subjects in India and abroad. Further, it aims to undertake and encourage research in the field of accounting. Ever since its inception, the IAA has served as an important forum for raising the status of accounting both as a discipline and as an important tool for managerial decision making.
+            The Association was founded by academicians and professionals in accounting on March 15, 1969, and inaugurated on February 14, 1970 by the Accountant General of Uttar Pradesh. It is a member organization of the International Association of Accounting Education and Research (IAAER). It is also held in high esteem by American Accounting Association (AAA). At present, IAA has a network of 57 branches in India with more than 7300 life members, and a Research Foundation as an affiliate at Kolkata. It also brings out a biannual research journal 'Indian Journal of Accounting' in the months of June & December to give wider publicity to research findings. The Association also gives IAA Young Research Award and IAA fellowship. The Association offers Life Membership and Annual Membership for Individuals and Institutions through its chapters across India. Past conference have attracted a large number of delegates from across the country and abroad.
+
+
+          </Text>
+        </Box>
+
+
+
         <Box>
           <Box display={{ md: "flex" }} alignItems={"center"} gap={[16, 8]}>
             <Image
@@ -60,28 +86,7 @@ export default function Organizers() {
 
 
 
-          <Box marginTop={8} display={{ md: "flex" }} alignItems={"center"} gap={[16, 8]}>
-            <Image
-              src="/IAA.svg"
-              alt="Nirma University Logo"
-              flex="0.5"
-              marginInline="auto"
-              order={[1, 1]}
-              display="block"
-              width={["xl"]}
-            ></Image>
-            <Text
-              flex="1.5"
-              fontWeight="semibold"
-              textAlign="justify"
-              order={[2, 2]}
-              marginBlock={[16, 0]}
-            >
-              The Indian Accounting Association is an interface between academicians, professional and practitioners from various universities, business, industry and government. The main function of IAA is to promote and disseminate the knowledge of accounting and the related subjects in India and abroad. Further, it aims to undertake and encourage research in the field of accounting. Ever since its inception, the IAA has served as an important forum for raising the status of accounting both as a discipline and as an important tool for managerial decision making. <br />
-              The Association was founded by academicians and professionals in accounting on March 15, 1969, and inaugurated on February 14, 1970 by the Accountant General of Uttar Pradesh. It is a member organization of the International Association of Accounting Education and Research (IAAER). It is also held in high esteem by American Accounting Association (AAA). At present, IAA has a network of 57 branches in India with more than 7300 life members, and a Research Foundation as an affiliate at Kolkata. It also brings out a biannual research journal 'Indian Journal of Accounting' in the months of June & December to give wider publicity to research findings. The Association also gives IAA Young Research Award and IAA fellowship. The Association offers Life Membership and Annual Membership for Individuals and Institutions through its chapters across India. Past conference have attracted a large number of delegates from across the country and abroad.
 
-            </Text>
-          </Box>
 
 
         </Box>
