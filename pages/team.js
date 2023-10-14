@@ -124,25 +124,25 @@ function Developers() {
     {
       name: "Parth Sanghvi",
       institute: "ICNU",
-      image: "/vishal_chaudhary.jpeg",
-      linkedIn: "https://www.linkedin.com/in/vishal-chaudhary-95b2571a6",
+      image: "/parth.jpeg",
+      linkedIn: "https://www.linkedin.com/in/parth-sanghvi-a0a052265/",
     },
     {
       name: "Disha Tank",
       institute: "ICNU",
-      image: "/kuldip_chaudhari.jpg",
-      linkedIn: "https://www.linkedin.com/in/kuldip-chaudhari-726b651a3",
+      image: "/disha.jpeg",
+      linkedIn: "https://www.linkedin.com/in/disha-tank-270274261/",
     },
     {
       name: "Gungun Gangwani",
       institute: "ICNU",
-      image: "/dhairya_bakshi.jpg",
-      linkedIn: "https://www.linkedin.com/in/dhairya-baxi-38908a1b9",
+      image: "/gungun.jpeg",
+      linkedIn: "https://www.linkedin.com/in/gungun-gangwani-692a71217/",
     },
     {
       name: "Raj Patel",
       institute: "ITNU",
-      image: "/jay_patel.jpg",
+      image: "/raj.jpeg",
       linkedIn: "https://www.linkedin.com/in/raj-k-patel21/",
     },
     {
@@ -154,8 +154,8 @@ function Developers() {
     {
       name: "Dhairya Baxi",
       institute: "ITNU",
-      image: "shubh_patel.jpg",
-      linkedIn: "https://www.linkedin.com/in/shubh26/",
+      image: "/dhairya.jpg",
+      linkedIn: "https://www.linkedin.com/in/dhairya-baxi-38908a1b9/",
     }
   ];
   return (

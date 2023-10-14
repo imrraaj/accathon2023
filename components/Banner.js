@@ -26,8 +26,7 @@ export default function CallToActionWithVideo() {
           <Heading lineHeight={1.1} fontWeight={600}>
             <Text
               fontSize={"5xl"}
-              as={"span"}
-              position={"relative"}
+              marginBottom={4}
             >
               Accathon'23 <br />Accounting Hackathon
             </Text>

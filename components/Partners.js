@@ -37,7 +37,7 @@ export default function Partners() {
           alignItems={"center"}
         >
           <Link href={"https://technology.nirmauni.ac.in/"} target="_blank">
-            <Image src="/Nirma_logo.jpg" width={56} />
+            <Image src="/itnu_logo.jpg" width={56} />
           </Link>
         </GridItem>
 

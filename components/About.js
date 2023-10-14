@@ -18,7 +18,7 @@ export default function About() {
       <Heading>About the Event</Heading>
       <Box display={["block", "flex"]} gap={4} paddingBlock={8}>
         <Image
-          src="https://images.unsplash.com/photo-1579532582937-16c108930bf6"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkfgHPfpkA5iwXB2_5uxGLC8tqslCPz0SfYd6X2t1wtyUc4GBwiFCydI6TgOz6V2R6nzQ"
           flex={1}
           // border={"8px"}
           // borderColor={["red", "green"]}
