@@ -118,8 +118,8 @@ function Developers() {
     {
       name: "Shruti Jain",
       institute: "ICNU",
-      image: "/raj_patel.jpg",
-      linkedIn: "",
+      image: "/shruti.jpeg",
+      linkedIn: "https://www.linkedin.com/in/shruti-jain-959aa9241/",
     },
     {
       name: "Parth Sanghvi",
@@ -148,8 +148,8 @@ function Developers() {
     {
       name: "Vikas Dhanani",
       institute: "ITNU",
-      image: "kiran_kher.jpg",
-      linkedIn: "https://www.linkedin.com/in/kiran-kher-a517b9225",
+      image: "vikas.jpeg",
+      linkedIn: "https://www.linkedin.com/in/vikas-dhanani-a571321b8/",
     },
     {
       name: "Dhairya Baxi",

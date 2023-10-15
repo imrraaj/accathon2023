@@ -8,7 +8,7 @@ export default function NotFound() {
         display="inline-block"
         as="h2"
         size="2xl"
-        bgGradient="linear(to-r, teal.400, teal.600)"
+        bgGradient="linear(to-r, purple.400, purple.600)"
         backgroundClip="text"
       >
         404
@@ -21,8 +21,8 @@ export default function NotFound() {
       </Text>
 
       <Button
-        colorScheme="teal"
-        bgGradient="linear(to-r, teal.400, teal.500, teal.600)"
+        colorScheme="purple"
+        bgGradient="linear(to-r, purple.400, purple.500, purple.600)"
         color="white"
         variant="solid"
       >

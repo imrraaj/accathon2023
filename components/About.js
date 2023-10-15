@@ -10,6 +10,8 @@ import {
   Button,
   Image,
   useColorModeValue,
+  OrderedList,
+  ListItem,
 } from "@chakra-ui/react";
 
 export default function About() {
@@ -54,7 +56,6 @@ export default function About() {
               width: "29px",
               right: "35px",
               transform: "rotate(180deg)",
-              // rotate: "180deg",
               top: "-10px",
               maxH: "120px",
               backgroundSize: "cover",
@@ -87,6 +88,29 @@ export default function About() {
             Accathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary  problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. The event will help in promoting innovation, out-of-the-box thinking in young minds, especially undergraduate students from across India. Accathon is an excellent opportunity to foster innovation, collaboration, and creativity among students while promoting their technical and problem-solving skills. This event will also provide a platform for students to interact with industry professionals and potential employers.
           </Text>
         </Box>
+      </Box>
+
+      <Heading>Expected Outcomes of the Event</Heading>
+      <Box marginBlock={8} paddingInline={[0, 8]} fontSize={"lg"}>
+        <OrderedList>
+          <ListItem paddingBlock={4}>
+            <Text fontWeight={"bold"} fontSize={"xl"}>Innovative Solutions: </Text>
+            It will result in the creation of innovative solutions to specific challenges related to taxation, cost accounting and financial statement analysis. Participants brainstorm and collaborate to develop novel ideas and approaches that address real-world problems.
+          </ListItem>
+          <ListItem paddingBlock={4}>
+            <Text fontWeight={"bold"} fontSize={"xl"}>Networking and Collaboration: </Text>
+            It will provide a platform for participants to network and collaborate with like-minded individuals. Participants often form new connections and partnerships that extend beyond the event.
+          </ListItem>
+          <ListItem paddingBlock={4}><Text fontWeight={"bold"} fontSize={"xl"}>Skill Development: </Text>
+            Participants can enhance their technical, creative, and problem-solving skills through hands-on experience during the hackathon. </ListItem>
+          <ListItem paddingBlock={4}><Text fontWeight={"bold"} fontSize={"xl"}>Start-ups and Ventures: </Text>
+            Some hackathon projects evolve into start-up ventures. When participants identify a market need and develop a strong solution, they might decide to continue. </ListItem>
+          <ListItem paddingBlock={4}><Text fontWeight={"bold"} fontSize={"xl"}>Employment Opportunities: </Text>
+            Companies often sponsor hackathons to identify potential talent. Participants who excel during the event might be offered job or internship opportunities with these companies. </ListItem>
+          <ListItem paddingBlock={4}><Text fontWeight={"bold"} fontSize={"xl"}>Cross-Disciplinary Collaboration: </Text>
+            It will bring together individuals from diverse backgrounds, encouraging cross-disciplinary collaboration. This can lead to unique and holistic solutions to complex problems. </ListItem>
+        </OrderedList>
+        In summary, it will generate a range of outcomes, including innovative solutions, skill development, networking, learning opportunities, and potential entrepreneurial ventures.
       </Box>
     </Box>
   );

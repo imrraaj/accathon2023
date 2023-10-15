@@ -6,27 +6,27 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="MINeD 2023 Hackathon is organised by Nirma University"
+          content="accathon 2023 Hackathon is organised by Nirma University"
         />
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href="/logo.jpg" />
         <meta
           property="og:image"
-          content="https://www.mined2023.tech/logo.png"
+          content="https://www.accathon.tech/logo.jpg"
         ></meta>
-        <meta property="og:title" content="MINeD 2023 Hackathon"></meta>
+        <meta property="og:title" content="accathon 2023 Hackathon"></meta>
         <meta
           property="og:description"
-          content="MINeD 2023 Hackathon is organised by Nirma University"
+          content="accathon 2023 Hackathon is organised by Nirma University"
         ></meta>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="MINeD 2023 Hackathon" />
+        <meta name="twitter:title" content="accathon 2023 Hackathon" />
         <meta
           name="twitter:description"
-          content="MINeD 2023 Hackathon is organised by Nirma University"
+          content="accathon 2023 Hackathon is organised by Nirma University"
         />
         <meta
           name="twitter:image"
-          content="https://www.mined2023.tech/logo.png"
+          content="https://www.accathon.tech/logo.jpg"
         />
       </Head>
       <body>
