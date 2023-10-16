@@ -66,13 +66,13 @@ function Advisor() {
     },
     {
       name: "Prof Gaurang Rawal",
-      designation: "Assistant Professor, ITNU",
-      image: "/gaurang_raval.jpeg",
+      designation: "Associate Professor, ITNU",
+      image: "/gaurang_raval.jpg",
       linkedIn: "https://www.linkedin.com/in/gaurang-raval-919b0017",
     },
     {
       name: "Prof Jitendra Bhatia",
-      designation: "Assistant Professor, ITNU",
+      designation: "Associate Professor, ITNU",
       image: "/jitendra_bhatia.jpeg",
       linkedIn: "https://www.linkedin.com/in/jitendrabbhatia/",
     },

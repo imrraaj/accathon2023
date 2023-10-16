@@ -28,7 +28,7 @@ export default function CallToActionWithVideo() {
               fontSize={"5xl"}
               marginBottom={4}
             >
-              Accathon'23 <br />Accounting Hackathon
+              Accathon'23 <br />(Accounting Hackathon)
             </Text>
             <br />
             <Text fontSize="xl" marginTop="4" color={"purple.400"}>
