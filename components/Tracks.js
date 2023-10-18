@@ -27,7 +27,7 @@ export default function Tracks() {
         <GridItem p="4">
           <TrackCard
             imageUrl="https://image.lexica.art/full_jpg/58e2902c-29dd-49ce-9149-3c4975b9d468"
-            trackName="Financial Analysis of Unlisted Companies"
+            trackName="Financial analysis of companies which are not listed"
           />
         </GridItem>
       </Grid>

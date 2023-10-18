@@ -19,7 +19,9 @@ export default function App({ Component, pageProps }) {
       <NextNProgress color="#805AD5" />
       <Fonts />
       <Text align="center" py="4" bgColor="purple.100">
-        <b>Registration closes on 2<sup>nd</sup> November, 2023</b>
+        <p className="flash">
+          <b>Registration closes on 2<sup>nd</sup> November, 2023</b>
+        </p>
       </Text>
       <Component {...pageProps} />
       <CountDownTimer targetDate={dateTimeForHackathon} />

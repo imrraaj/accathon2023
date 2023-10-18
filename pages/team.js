@@ -59,11 +59,12 @@ function Advisor() {
       linkedIn: "https://www.linkedin.com/in/prof-udai-paliwal-55aa709a",
     },
     {
-      name: "Prof Gopika Juneja",
-      designation: "Assistant Professor, ICNU",
-      image: "/gopika_juneja.jpeg",
-      linkedIn: "https://www.linkedin.com/in/gopika-juneja-a6534b156/",
+      name: "Dr Sanjay Bhayani",
+      designation: "General Secretary, Indian Accounting Association",
+      image: "/sanjay_bhayani.jpeg",
+      linkedIn: "https://www.linkedin.com/in/sanjay-bhayani-505b901a0",
     },
+
     {
       name: "Prof Gaurang Rawal",
       designation: "Associate Professor, ITNU",
@@ -77,17 +78,18 @@ function Advisor() {
       linkedIn: "https://www.linkedin.com/in/jitendrabbhatia/",
     },
     {
+      name: "Prof Gopika Juneja",
+      designation: "Assistant Professor, ICNU",
+      image: "/gopika_juneja.jpeg",
+      linkedIn: "https://www.linkedin.com/in/gopika-juneja-a6534b156/",
+    },
+    {
       name: "Prof Sunil Gautam",
       designation: "Assistant Professor, ITNU",
       image: "/sunil_gautam.jpeg",
       linkedIn: "https://www.linkedin.com/in/sunil-g-a02658246/",
     },
-    {
-      name: "Dr Sanjay Bhayani",
-      designation: "General Secretary, Indian Accounting Association",
-      image: "/sanjay_bhayani.jpeg",
-      linkedIn: "https://www.linkedin.com/in/sanjay-bhayani-505b901a0",
-    },
+
   ];
   return (
     <Grid
