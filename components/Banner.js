@@ -9,6 +9,8 @@ import {
   Image,
   Icon,
   useColorModeValue,
+  OrderedList,
+  ListItem,
 } from "@chakra-ui/react";
 import Link from "next/link";
 import { FaDiscord } from "react-icons/fa";
@@ -30,6 +32,18 @@ export default function CallToActionWithVideo() {
             >
               Accathon'23 <br />(Accounting Hackathon)
             </Text>
+            <br />
+            <Text
+              fontSize={"2xl"}
+              marginBottom={4}
+              color={"purple.400"}
+            >
+              Themes:
+            </Text>
+            <OrderedList fontSize={"xl"}>
+              <ListItem paddingBlock={1}>Taxation</ListItem>
+              <ListItem paddingBlock={1}>Financial analysis of companies which are not listed</ListItem>
+            </OrderedList>
             <br />
             <Text fontSize="xl" marginTop="4" color={"purple.400"}>
               1 <sup>st</sup> Round (Online):  9<sup>th</sup> November, 2023
