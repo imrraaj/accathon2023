@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }) {
       <Fonts />
       <Text align="center" py="4" bgColor="purple.100">
         <p className="flash">
-          <b>Registration closes on 2<sup>nd</sup> November, 2023</b>
+          <b>Registration closes on 26<sup>th</sup> December, 2023</b>
         </p>
       </Text>
       <Component {...pageProps} />
