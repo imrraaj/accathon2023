@@ -13,7 +13,7 @@ const theme = extendTheme({
 });
 
 export default function App({ Component, pageProps }) {
-  const dateTimeForHackathon = new Date("11-09-2023 09:00:00");
+  const dateTimeForHackathon = new Date("01-06-2024 09:00:00");
   return (
     <ChakraProvider theme={theme}>
       <NextNProgress color="#805AD5" />
