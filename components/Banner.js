@@ -30,7 +30,7 @@ export default function CallToActionWithVideo() {
               fontSize={"5xl"}
               marginBottom={4}
             >
-              Accathon'24 <br />(Accounting Hackathon)
+              Accathon'24 <br />
             </Text>
             <br />
             <Text

@@ -1,4 +1,4 @@
-import { Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef, useState } from "react";
@@ -11,7 +11,12 @@ export default function Navbar() {
     <nav className="primary-nav container">
       <div className="logo">
         <Link href={"/"}>
-          <img className="logo-image" src="/logo.jpg" alt="Menu" />
+          <Box display={"flex"} gap={"4"}>
+            <img className="logo-image" src="/logo.jpg" alt="Menu" />
+            <Text fontWeight={"bold"}>
+              An interdisciplinary Accounting Hackathon
+            </Text>
+          </Box>
         </Link>
       </div>
 
