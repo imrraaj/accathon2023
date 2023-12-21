@@ -13,7 +13,7 @@ import Link from "next/link";
 export default function Sponsors() {
   return (
     <Box marginBlock={16} id="sponsors">
-      <Heading marginBlock={"8"}>Sponsors</Heading>
+      <Heading marginBlock={"8"}>Our Sponsor</Heading>
       <Grid
         h="min-content"
         templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
