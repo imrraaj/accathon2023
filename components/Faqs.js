@@ -98,7 +98,7 @@ export default function Faqs() {
         },
         {
           q: "If we qulaify for the second round, will accomodation be provided?",
-          a: "The accomodation cost and travel (sleeper class) would be reimbursed for the participants in the offline round.",
+          a: "To and fro travel (sleeper class),accommodation and meals would be reimbursed for the participants in the offline round.",
         },
         {
           q: "Will we get refund if we cancel our participation?",
@@ -118,8 +118,8 @@ export default function Faqs() {
           a: "Each team is required to consist of 4 members.",
         },
         {
-          q: "Only students that belong to same College/University can form a team?",
-          a: "Yes, the team should belong to same College/University but the students can be from different Institutes/Departments /Branches under same management, with at least 2 students from commerce/management stream.",
+          q: "Can students that belong to different College/University can form a team?",
+          a: "Yes, Students from any University/ College /Institute can form a team, with at least 2 students from commerce/management stream.",
         },
         {
           q: "Can I be part of two teams?",
