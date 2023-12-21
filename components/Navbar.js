@@ -14,7 +14,7 @@ export default function Navbar() {
           <Box display={"flex"} gap={"4"}>
             <img className="logo-image" src="/logo.jpg" alt="Menu" />
             <Text fontWeight={"bold"}>
-              An interdisciplinary Accounting Hackathon
+              An Interdisciplinary Accounting Hackathon
             </Text>
           </Box>
         </Link>

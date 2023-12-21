@@ -49,8 +49,9 @@ export default function CallToActionWithVideo() {
               1 <sup>st</sup> Round (Online):  6<sup>th</sup> January, 2024
             </Text>
             <Text fontSize="xl" marginTop="4" color={"purple.400"}>
-              2 <sup>nd</sup> Round (Nirma University Campus):  24<sup>th</sup> - 25<sup>th</sup> January, 2024
+              2 <sup>nd</sup> Round (Nirma University Campus*):  24<sup>th</sup> - 25<sup>th</sup> January, 2024
             </Text>
+            <Text fontSize="small" marginTop={"4"}>* The accomodation cost and travel (sleeper class) would be reimbursed for the participants in the offline round.</Text>
             <Text fontSize={["lg", "xl"]} fontWeight="black" marginTop={"12"}>
               Participate and win exciting prizes
             </Text>

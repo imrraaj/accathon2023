@@ -57,7 +57,7 @@ export default function Faqs() {
         },
         {
           q: "Is this Hackathon online or offline?",
-          a: "First Round  will be an online round while the second (Final)  Round  will be an offline round at the Nirma University Campus.",
+          a: "First Round  will be an online round while the second (Final)  Round  will be an offline round at the Nirma University Campus. The accomodation cost and travel (sleeper class) would be reimbursed for the participants in the offline round.",
         },
       ],
     },
@@ -95,6 +95,10 @@ export default function Faqs() {
         {
           q: "What is the procedure to cancel the registration?",
           a: "If you feel that you will not be able to participate in the event after registering, just drop an email at gopikajuneja@nirmauni.ac.in stating the same.",
+        },
+        {
+          q: "If we qulaify for the second round, will accomodation be provided?",
+          a: "The accomodation cost and travel (sleeper class) would be reimbursed for the participants in the offline round.",
         },
         {
           q: "Will we get refund if we cancel our participation?",
