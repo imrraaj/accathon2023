@@ -27,9 +27,9 @@ export default function Sponsors() {
           border={2}
           borderColor={"purple"}
         >
-          No Sponsers declared yet
+
           {/* <Link href={"https://cactusglobal.com/"} target="_blank"> */}
-          {/* <Image src="/cactus.png" scale={1.5} /> */}
+          <Image src="/acca.jpg" />
           {/* </Link> */}
         </GridItem>
       </Grid>
