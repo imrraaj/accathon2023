@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
         <marquee>
           Participate in the Hackathon and win attractive cash prizes. <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           Hurry up! <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          Registration closes on 26<sup>th</sup> December, 2023.
+          Registration closes on 30<sup>th</sup> December, 2023.
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdRMfQ5Q_s8QbddWujAl52rTbueJMoHotJL0cOEhv-wzBEYgw/viewform?usp=sf_link"
