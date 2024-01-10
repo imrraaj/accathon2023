@@ -57,7 +57,7 @@ export default function Faqs() {
         },
         {
           q: "Is this Hackathon online or offline?",
-          a: "First Round  will be an online round while the second (Final)  Round  will be an offline round at the Nirma University Campus. The accomodation cost and travel (sleeper class) would be reimbursed for the participants in the offline round.",
+          a: "The First Round  will be an online round while the second (Final)  Round  will be an offline round at the Nirma University Campus. The accomodation cost and travel (sleeper class) would be reimbursed for the participants in the offline round.",
         },
       ],
     },
@@ -66,7 +66,7 @@ export default function Faqs() {
       questions: [
         {
           q: "Who can participate in this event?",
-          a: "All the Undergraduate students of Universities/Colleges across India are eligible to participate. Each team is required to consist of 4 members, with at least 2 students from commerce/management stream.",
+          a: "All the Undergraduate students of Universities/Colleges across India are eligible to participate. Each team is required to consist of 4 members, with at least 2 students from the commerce/management stream.",
         },
         {
           q: "I am working at a company. Am I eligible to participate in the event?",
@@ -77,8 +77,8 @@ export default function Faqs() {
           a: "Although this event is for students only, you as a faculty member can act as a mentor of a team based on your domain expertise.",
         },
         {
-          q: "Do I need to register for participating in this event?",
-          a: "Yes it is compulsory for the  team to register and participate in the event.The team leader has to register the team.",
+          q: "Do I need to register to participate in this event?",
+          a: "Yes, it is compulsory for the  team to register and participate in the event. The team leader has to register the team.",
         },
         {
           q: "What is the registration fee?",
@@ -89,7 +89,7 @@ export default function Faqs() {
           a: "No, the event is open for all the undergraduate students of Universities/Colleges across India.",
         },
         {
-          q: "Can I register for more than one tracks?",
+          q: "Can I register for more than one track?",
           a: "No, one team can register only for a single track.",
         },
         {
@@ -97,12 +97,12 @@ export default function Faqs() {
           a: "If you feel that you will not be able to participate in the event after registering, just drop an email at gopikajuneja@nirmauni.ac.in stating the same.",
         },
         {
-          q: "If we qulaify for the second round, will accomodation be provided?",
-          a: "The accomodation cost and travel (sleeper class) would be reimbursed for the participants in the offline round.",
+          q: "If we qualify for the second round, will accommodation be provided?",
+          a: "To and fro travel (sleeper class), accommodation, and meals would be reimbursed for the participants in the offline round.",
         },
         {
-          q: "Will we get refund if we cancel our participation?",
-          a: "No, fee once paid is non refundable even if you cancel your participation.",
+          q: "Will we get a refund if we cancel our participation?",
+          a: "No, the fee once paid is non-refundable even if you cancel your participation.",
         },
       ],
     },
@@ -118,12 +118,12 @@ export default function Faqs() {
           a: "Each team is required to consist of 4 members.",
         },
         {
-          q: "Only students that belong to same College/University can form a team?",
-          a: "Yes, the team should belong to same College/University but the students can be from different Institutes/Departments /Branches under same management, with at least 2 students from commerce/management stream.",
+          q: "Can students that belong to different College/University can form a team?",
+          a: "Yes, Students from any University/ College /Institute can form a team, with at least 2 students from the commerce/management stream.",
         },
         {
           q: "Can I be part of two teams?",
-          a: "No, you can be member of one team only. ",
+          a: "No, you can be a member of only one team. ",
         },
       ],
     },
@@ -134,12 +134,12 @@ export default function Faqs() {
           q: "What is the prize money?",
           type: "HTML",
           a: `
-            For each theme the prizes are as under:
+            For each theme, the prizes are as under:
             <li>1st Prize: Rs. 15,000</li>
             <li>2nd Prize: Rs.10,000</li>`,
         },
         {
-          q: "Is there any track specific prize money?",
+          q: "Is there any track-specific prize money?",
           a: "Yes, there would be winners for each theme.",
         },
         {
