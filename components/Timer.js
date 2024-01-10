@@ -63,7 +63,7 @@ const CountdownTimer = ({ targetDate }) => {
           zIndex="1000"
         >
           <Text align="center" fontWeight="black">
-            Hackathon starts in
+            2 <sup>nd</sup> round of hackathon starts in
           </Text>
           <ShowCounter
             days={days}
