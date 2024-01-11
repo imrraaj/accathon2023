@@ -23,7 +23,7 @@ export default function Home() {
           <Banner />
           <Organizers />
           {/* <Testimonials /> */}
-          <Sponsors />
+          <Sponsors title="Knowledge Partner" />
           <Faqs />
         </Box>
         <Footer />

@@ -10,10 +10,10 @@ import {
 } from "@chakra-ui/react";
 import Link from "next/link";
 
-export default function Sponsors() {
+export default function Sponsors({ title = "Our Sponsor" }) {
   return (
     <Box marginBlock={16} id="sponsors">
-      <Heading marginBlock={"8"}>Our Sponsor</Heading>
+      <Heading marginBlock={"8"}>{title}</Heading>
       <Grid
         h="min-content"
         templateRows={{ sm: "repeat(8, 1fr)", md: "repeat(1, 1fr)" }}
