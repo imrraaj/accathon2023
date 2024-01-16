@@ -36,7 +36,7 @@ export default function Contact() {
           {/* <Mentors /> */}
           <Schedule />
           <Partners />
-          <Sponsors />
+          <Sponsors title="Knowledge Partner" />
         </Box>
         <Footer />
       </Container>
