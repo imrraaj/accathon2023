@@ -9,17 +9,16 @@ export default function Navbar() {
   const [isOpened, setOpened] = useState(false);
   return (
     <nav className="primary-nav container">
-      <div className="logo">
-        <Link href={"/"}>
-          <Box display={"flex"} gap={"4"}>
+      <Box display={["block", "flex"]} justifyContent={"center"} alignItems={"center"}>
+        <div className="logo">
+          <Link href={"/"}>
             <img className="logo-image" src="/logo.jpg" alt="Menu" />
-            <Text fontWeight={"bold"}>
-              An Interdisciplinary Accounting Hackathon
-            </Text>
-          </Box>
-        </Link>
-      </div>
-
+          </Link>
+        </div>
+        <Text fontWeight={"bold"} >
+          An Interdisciplinary Accounting Hackathon
+        </Text>
+      </Box>
       <ul
         className="primary-navigation"
         id="primary-navigation"
