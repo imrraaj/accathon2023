@@ -37,7 +37,7 @@ export default function Navbar() {
           <Link href="/events">
             <Text _hover={{
               color: "purple.400"
-            }} >Events</Text></Link>
+            }} >Event</Text></Link>
         </li>
         <li>
           <Link href="/team">
